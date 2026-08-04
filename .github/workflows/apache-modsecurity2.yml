@@ -10,6 +10,7 @@ on:
   push:
     branches: [master]
   pull_request:
+  workflow_dispatch:
 name: Apache/v2
 
 concurrency:
